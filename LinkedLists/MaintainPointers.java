@@ -46,7 +46,7 @@ public class MaintainPointers{
       }
       System.out.println(sb.toString());
     }
-
+    
     public boolean insertAfter(Node element, int data){
       if(element == null){
         Node temp = new Node(data);
